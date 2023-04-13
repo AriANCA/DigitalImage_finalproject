@@ -25,14 +25,13 @@ https://user-images.githubusercontent.com/118282872/231763631-d7b79707-2307-4e3f
 
 The Guadiana valley of Ecatepec de Morelos falls within the wide-area analysis based on Sentinel 1A imagery acquired in 2016 [4], which showed peak vertical rates of about -4-5 cm/yr, these are consistent with the rates estimated based on the analysis presented in this paper. The InSAR results reveal high subsidence rates detected in the Guadiana valley with peaks of ~-4 cm/yr and are concentrated within the Aragon forests.
 
-
-
+![Northzone](https://user-images.githubusercontent.com/118282872/231768206-02fc7ae3-f094-4303-9ff4-60595ba44a35.png)
 
 As also observed in the north zone of the figure above, higher subsidence rates spatially correlated with industrial land use, especially in the areas of Rio de Luz, Sagitario X, Miguel Hidalgo and Del Bosque where more than 20 groundwater wells operate [5]. This corroborates the conclusion that groundwater pumping for industrial activities in those sectors acts as the lead factor that determines ground deformation.
 To better understand the InSAR results, it is necessary to consider the geological setting and the characteristics of the Zacatepec aquifer.It is located in the central part of the country, in the southwestern portion of the State of Morelos, between the parallels 18° 20' and 18° 45' North latitude and the meridians 99° 30' and 99° 9' West longitude, covering an approximate area of 1,279 km2 [6].
 The oldest stratigraphic units in this zone are volcanoclastic products of the Tertiary and Quaternary [5]. The alluvial and fluvial deposits within the channels and valleys host the unconfined aquifer, the main source to address water needs of the region. The deeper portion of the aquifer sits within a sequence of highly fractured ex-trusive igneous rocks, composed primarily of basalts, tuffs, and andesites. The barriers to horizontal and vertical flow are mainly the same volcanic rocks, where the fracturing disappears at depths [6].
 
-
+![Southzone](https://user-images.githubusercontent.com/118282872/231768300-53228323-4e5e-4e89-9e8e-724fa2c71fa3.png)
 
 A similar situation occurs in the southern zoneof the figure above in the Chalco Valley. Groundwater extraction in the Chalco-Amecameca aquifer, which belongs to the Transmexican Volcanic Belt, receives its recharge from rainfall, mainly in the topographically elevated portions [7]. In addition, there is another source of recharge that feeds the aquifer, which is the incidental recharge caused by leaks from the supply systems. The main discharge of the aquifer is mainly through deep wells and some springs. The large number of wells has caused overexploitation, which is manifested in a continuous decline in groundwater levels [8].
 The land subsidence map generated in this study indicates a relatively strong correlation between land subsidence and urban development, probably due to excessive groundwater extraction in urban areas [9]. This map could be used by local environ-mental authorities and urban developers to identify areas at high risk of subsidence. In addition, the InSAR method for mapping ground deformation using radar images of the Earth's surface obtained from orbiting satellites could be applied to other regions of the planet.
@@ -40,7 +39,6 @@ The land subsidence map generated in this study indicates a relatively strong co
 # Conclusion
 This study compared two radar images of the eastern part of Mexico City taken during the period from June to September 2022 from similar strategic points in space to measure subsidence of the area due to groundwater extraction and related risk as-sessments. The InSAR results reveal high rates of subsidence detected with peaks of ~-4 cm/year. It can then be concluded that this phenomenon was caused by the increased number of deep wells in the area, intense water extraction and decreased groundwater height. 
 The findings of this study with the help of continuous radar satellite monitoring will help aquifer managers make informed decisions about their valuable water resources.
-
 
 # References
 1. Geudtner, D.; Prats, P.; Yague, N.; Navas-Traver, I.; Barat, I.; Torres, R. Sentinel-1 SAR interferometry performance verifica-tion. In Proceedings of the EUSAR 2016: 11th European Conference on Synthetic Aperture Radar, Hamburg, Germany, 6–9 June 2016; pp. 1–4.
