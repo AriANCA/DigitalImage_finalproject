@@ -8,12 +8,14 @@ For this research, data of location and Sentinel-1 scenes were obtained by the C
 
 ![data](https://user-images.githubusercontent.com/118282872/231750806-f9b651f6-1701-4f8b-a264-f3a38e5ba83d.png)
 
-InSAR can derive information from the interferograms that are formed by phase differences between two high resolution SAR images for the same area [2]. In this method, the DEM (Digital Elevation Model) with 30 m spatial resolution was used to remove topography phase, Goldstein filter was also used to remove noises and to strengthen radar signal and Minimum Cost Flow (MCF) was used in unwrapping phase. 
-In this study, InSAR processing was performed with the support of SNAP (Sentinel Application Platform) software. Forming interferograms from single-look complex (SLC) images is the preprocessing target of SNAP [3]. It does this by applying precise orbit correction to co-register the stack, choosing the master image, generating interferograms and removing the topographic phase. Moreover, the Goldstein adaptative filter (window size: 3; value of α: 0.2) was applied during the phase unwrapping pro-cess to reduce the noise phase.
+In this study, InSAR processing was performed with the support of SNAP (Sentinel Application Platform) software. Forming interferograms from single-look complex (SLC) images is the preprocessing target of SNAP [3]. It does this by applying precise orbit correction to co-register the stack, choosing the master image, generating interferograms and removing the topographic phase. Moreover, the Goldstein adaptative filter (window size: 3; value of α: 0.2) was applied during the phase unwrapping process to reduce the noise phase.
 
+![Workflow](https://user-images.githubusercontent.com/118282872/231753042-4a5adbee-c45d-454a-b720-6af29c7ced78.png)
 
+The image above shows the workflow represented with the graphics builder of the used program. InSAR can derive information from the interferograms that are formed by phase differences between two high resolution SAR images for the same area [2]. In this method, the DEM (Digital Elevation Model) with 30 m spatial resolution was used to remove topography phase, Goldstein filter was also used to remove noises and to strengthen radar signal and Minimum Cost Flow (MCF) was used in unwrapping phase.
 
 # Results and Discussion
+Two Sentinel-1A radar scans acquired between 11 June and 27 September 2022 were combined to create the following image of ground deformation in Mexico City. The defor-mation is caused by ground water extraction, with some areas of the city subsiding at up to 0.05 m/yr. By means of an appropriate post-processing of the displacement product, in this case the masking of the incoherent values, (Figure 1b) was obtained.
 
 
 # Conclusion
