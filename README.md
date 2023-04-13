@@ -17,6 +17,10 @@ The image above shows the workflow represented with the graphics builder of the 
 # Results and Discussion
 Two Sentinel-1A radar scans acquired between 11 June and 27 September 2022 were combined to create the following image of ground deformation in Mexico City. The defor-mation is caused by ground water extraction, with some areas of the city subsiding at up to 0.05 m/yr. By means of an appropriate post-processing of the displacement product, in this case the masking of the incoherent values, (Figure 1b) was obtained.
 
+![ImagenVV](https://user-images.githubusercontent.com/118282872/231756659-7287292d-4aa7-499b-869c-f404da913755.png)
+
+The image above is the result of Range Doppler orthorectification method: (a) Displacement product; (b) Masking of the incoherent values in the displacement product.
+
 
 # Conclusion
 
