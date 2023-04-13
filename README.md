@@ -8,11 +8,11 @@ For this research, data of location and Sentinel-1 scenes were obtained by the C
 
 ![data](https://user-images.githubusercontent.com/118282872/231750806-f9b651f6-1701-4f8b-a264-f3a38e5ba83d.png)
 
-In this study, InSAR processing was performed with the support of SNAP (Sentinel Application Platform) software. Forming interferograms from single-look complex (SLC) images is the preprocessing target of SNAP [3]. It does this by applying precise orbit correction to co-register the stack, choosing the master image, generating interferograms and removing the topographic phase. Moreover, the Goldstein adaptative filter (window size: 3; value of α: 0.2) was applied during the phase unwrapping process to reduce the noise phase.
+In this study, InSAR processing was performed with the support of SNAP (Sentinel Application Platform) software. Forming interferograms from single-look complex (SLC) images is the preprocessing target of SNAP [2]. It does this by applying precise orbit correction to co-register the stack, choosing the master image, generating interferograms and removing the topographic phase. Moreover, the Goldstein adaptative filter (window size: 3; value of α: 0.2) was applied during the phase unwrapping process to reduce the noise phase.
 
 ![Workflow](https://user-images.githubusercontent.com/118282872/231753042-4a5adbee-c45d-454a-b720-6af29c7ced78.png)
 
-The image above shows the workflow represented with the graphics builder of the used program. InSAR can derive information from the interferograms that are formed by phase differences between two high resolution SAR images for the same area [2]. In this method, the DEM (Digital Elevation Model) with 30 m spatial resolution was used to remove topography phase, Goldstein filter was also used to remove noises and to strengthen radar signal and Minimum Cost Flow (MCF) was used in unwrapping phase.
+The image above shows the workflow represented with the graphics builder of the used program. InSAR can derive information from the interferograms that are formed by phase differences between two high resolution SAR images for the same area [3]. In this method, the DEM (Digital Elevation Model) with 30 m spatial resolution was used to remove topography phase, Goldstein filter was also used to remove noises and to strengthen radar signal and Minimum Cost Flow (MCF) was used in unwrapping phase.
 
 # Results and Discussion
 Two Sentinel-1A radar scans acquired between 11 June and 27 September 2022 were combined to create the following image of ground deformation in Mexico City. The defor-mation is caused by ground water extraction, with some areas of the city subsiding at up to 0.05 m/yr. By means of an appropriate post-processing of the displacement product, in this case the masking of the incoherent values, (Figure 1b) was obtained.
@@ -23,5 +23,6 @@ Two Sentinel-1A radar scans acquired between 11 June and 27 September 2022 were 
 
 # References
 1. Geudtner, D.; Prats, P.; Yague, N.; Navas-Traver, I.; Barat, I.; Torres, R. Sentinel-1 SAR interferometry performance verifica-tion. In Proceedings of the EUSAR 2016: 11th European Conference on Synthetic Aperture Radar, Hamburg, Germany, 6–9 June 2016; pp. 1–4.
-2. Saracin A, Cosarca C, Didulescu C, et al. 2014. Using InSAR technology for monitoring vertical deformation of the earth surface. Advances in environmental development, geomatics engineering and tourism. In: Proceedings of the 2nd European Conference of Geodesy and Geomatics Engineering (GENG 14). Brasov, Romania: GENG, 41–48.
-3. Hooper, A.; Pa, S.; Howard, Z.A. Persistent scatterer interferometric synthetic aperture radar for crustal deformation analy-sis, with application to Volcán Alcedo, Galápagos. J. Geophys. Res. Solid Earth 2007, 112, B7.
+2. Hooper, A.; Pa, S.; Howard, Z.A. Persistent scatterer interferometric synthetic aperture radar for crustal deformation analy-sis, with application to Volcán Alcedo, Galápagos. J. Geophys. Res. Solid Earth 2007, 112, B7.
+3. Saracin A, Cosarca C, Didulescu C, et al. 2014. Using InSAR technology for monitoring vertical deformation of the earth surface. Advances in environmental development, geomatics engineering and tourism. In: Proceedings of the 2nd European Conference of Geodesy and Geomatics Engineering (GENG 14). Brasov, Romania: GENG, 41–48.
+4. 
